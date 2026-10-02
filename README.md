@@ -17,13 +17,7 @@ Discord disables the inspection console by default. You need to turn it on via y
 1. Press `Win + R` on your keyboard to open the Windows Run dialog.
 2. Type `%appdata%/discord/` and press **Enter**. A folder will open in File Explorer.
 3. Find the file named `settings.json`.
-4. Replace it with the `setting.json` file from this repository.
-   - Alternatively, open `settings.json` in Notepad, delete whatever is inside, paste the following code, and save:
-     ```json
-     {
-       "DANGEROUS_ENABLE_DEVTOOLS_ONLY_ENABLE_IF_YOU_KNOW_WHAT_YOURE_DOING": true
-     }
-     ```
+4. Download [`setting.json`](./setting.json) from this repository and replace the existing `settings.json` file in that folder. If it doesn't replace, open `settings.json` in Notepad, paste the content from `setting.json`, and save.
 
 ---
 
